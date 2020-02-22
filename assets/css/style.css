@@ -215,12 +215,12 @@ img { max-width: 100%; }
 
 /***** Services *****/
 
-.services-box {
+.about-us-box {
 	padding-top: 30px;
 	text-align: left;
 }
 
-.services-box .services-box-icon {
+.about-us-box .about-us-box-icon {
 	width: 80px;
 	height: 80px;
 	margin: 0 auto;
@@ -240,7 +240,7 @@ img { max-width: 100%; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
-.services-box h3 {
+.about-us-box h3 {
 	margin-top: 0;
 	padding: 0 0 10px 0;
 }
@@ -274,14 +274,14 @@ img { max-width: 100%; }
 }
 
 
-/***** More services *****/
+/***** geodedic-services-us *****/
 
-.more-services-box {
+.geodedic-services-box {
 	margin-top: 30px;
 	text-align: left;
 }
 
-.more-services-box .more-services-box-icon {
+.geodedic-services-box .geodedic-services-box-icon {
 	width: 60px;
 	height: 60px;
 	margin: 0 auto;
@@ -301,7 +301,7 @@ img { max-width: 100%; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
-.more-services-box h3 {
+.geodedic-services-box h3 {
 	margin-top: 0;
 	padding: 0 0 10px 0;
 }
@@ -316,94 +316,94 @@ img { max-width: 100%; }
 
 /***** Portfolio *****/
 
-.portfolio-box {
+.estate-appraisals-box {
 	padding-top: 30px;
 	text-align: left;
 }
 
-.portfolio-box-image {
+.pestate-appraisals-box-image {
 	overflow: hidden;
 	border-radius: 4px;
 }
 
-.portfolio-box-image img {
+.estate-appraisals-box-image img {
 	-o-transition: all .8s; -moz-transition: all .8s; -webkit-transition: all .8s; -ms-transition: all .8s; transition: all .8s;
 }
 
-.portfolio-box-image:hover img {
+.pestate-appraisals-box-image:hover img {
 	-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);
 }
 
-.portfolio-box h3 {
+.estate-appraisals-box h3 {
 	margin-top: 30px;
 }
-.portfolio-box h3 a { color: #555; }
-.portfolio-box h3 a:hover, .portfolio-box h3 a:focus { color: #9b59b6; }
+.portflio-box h3 a { color: #555; }
+.estate-appraisals-box h3 a:hover, .estate-appraisals-box h3 a:focus { color: #9b59b6; }
 
-.portfolio-box h3 i {
+.estate-appraisals-box h3 i {
 	padding-left: 10px;
 	color: #ccc;
 	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-.portfolio-box h3:hover i { padding-left: 15px; }
+.estate-appraisals-box h3:hover i { padding-left: 15px; }
 
-.portfolio-box-date {
+.estate-appraisals-box-date {
 	padding-bottom: 10px;
 	font-size: 14px;
 	color: #aaa;
 	text-transform: uppercase;
 }
 
-.portfolio-box-date i {
+.estate-appraisals-box-date i {
 	padding-right: 5px;
 	color: #ddd;
 }
 
-.portfolio-container .section-bottom-button {
+.estate-appraisals-container .section-bottom-button {
 	padding-top: 40px;
 }
 
 
-/***** Testimonials *****/
+/***** Realizations *****/
 
-.testimonials-container {
+.realizations-container {
 	padding-bottom: 70px;
 }
 
-.testimonial-list {
+.reaalizations-list {
     margin-top: 30px;
     text-align: center;
 }
 
-.testimonial-list .testimonial-image img {
+.reaalizations-list .reaalizations-image img {
 	max-width: 160px;
 	border-radius: 4px;
 }
 
-.testimonial-list .testimonial-text {
+.reaalizations-list .reaalizations-text {
 	margin-top: 30px;
 	opacity: 0.8;
 }
 
-.testimonial-list .testimonial-text a {
+.reaalizations-list .reaalizations-text a {
 	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
-.testimonial-list .testimonial-text a:hover, 
-.testimonial-list .testimonial-text a:focus { color: #fff; border: 0; }
+.reaalizations-list .reaalizations-text a:hover,
+.reaalizations-list .reaalizations-text a:focus { color: #fff; border: 0; }
 
-.testimonial-list .nav-tabs {
+.reaalizations-list .nav-tabs {
 	margin-top: 45px;
     border: 0;
     justify-content: center;
 }
 
-.testimonial-list .nav-tabs li {
+.reaalizations-list .nav-tabs li {
 	margin-left: 10px;
     margin-right: 10px;
 }
 
-.testimonial-list .nav-tabs li a {
+.reaalizations-list .nav-tabs li a {
     width: 16px;
     height: 16px;
     padding: 0;
@@ -413,16 +413,16 @@ img { max-width: 100%; }
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.testimonial-list .nav-tabs li a:hover,
-.testimonial-list .nav-tabs li a:focus {
+.reaalizations-list .nav-tabs li a:hover,
+.reaalizations-list .nav-tabs li a:focus {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.8);
     border: 1px solid #fff;
     border-color: rgba(255, 255, 255, 0.8);
 }
 
-.testimonial-list .nav-tabs li a.active,
-.testimonial-list .nav-tabs li a.active:focus {
+.reaalizations-list .nav-tabs li a.active,
+.reaalizations-list .nav-tabs li a.active:focus {
 	background: #9b59b6; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
