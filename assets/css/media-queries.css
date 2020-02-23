@@ -23,9 +23,9 @@
 	
 	.geodedic-services-box .geodedic-services-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
 	
-	.portfolio-box h3:hover i { padding-left: 10px; }
+	.estate-appraisals-box h3:hover i { padding-left: 10px; }
 	
-	.blog-box h3:hover i { padding-left: 10px; }
+	.contact-box h3:hover i { padding-left: 10px; }
 
 }
 
@@ -53,12 +53,12 @@
 	.geodedic-services-box { text-align: center; }
 	.geodedic-services-box h3 { margin-top: 20px; padding-top: 10px; }
 	
-	.portfolio-box { text-align: center; }
-	.portfolio-box-image { max-width: 540px; margin: 0 auto; }
+	.estate-appraisals-box { text-align: center; }
+	.estate-appraisals-box-image { max-width: 540px; margin: 0 auto; }
 	
-	.blog-box { text-align: center; }
-	.blog-box-image { max-width: 540px; margin: 0 auto; }
-	.blog-box h3 { margin-top: 30px; }
+	.contact-box { text-align: center; }
+	.contact-box-image { max-width: 540px; margin: 0 auto; }
+	.contact-box h3 { margin-top: 30px; }
 	
 	footer { text-align: center; }
 	.footer-right { padding-top: 10px; text-align: center; }
