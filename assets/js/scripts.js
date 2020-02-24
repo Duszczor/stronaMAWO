@@ -22,16 +22,16 @@ jQuery(document).ready(function() {
 		scroll_to($(this), $('nav').outerHeight());
 	});
 	// toggle "navbar-no-bg" class
-	$('.top-content .text').waypoint(function() {
+	$('.top-content.text').waypoint(function() {
 		$('nav').toggleClass('navbar-no-bg');
 	});
 	
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg");
-    $('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
+    $('.top-content').backstretch("assets/img/backgrounds/1.jpg").css("opacity", 1.0);
+    $('.call-to-action-container').backstretch("assets/img/backgrounds/1.jpg").css("opacity", 1.0);
+    $('.more-estate-appraisals-container').backstretch("assets/img/backgrounds/1.jpg").css("opacity", 1.0);
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
     });
     
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
-    	$('.testimonials-container').backstretch("resize");
+    	$('.realizations-container').backstretch("resize");
     });
     
     /*
@@ -57,7 +57,7 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	$(".realizations-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
 

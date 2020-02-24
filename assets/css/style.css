@@ -370,40 +370,40 @@ img { max-width: 100%; }
 	padding-bottom: 70px;
 }
 
-.reaalizations-list {
+.realizations-list {
     margin-top: 30px;
     text-align: center;
 }
 
-.reaalizations-list .reaalizations-image img {
+.realizations-list .realizations-image img {
 	max-width: 160px;
 	border-radius: 4px;
 }
 
-.reaalizations-list .reaalizations-text {
+.realizations-list .realizations-text {
 	margin-top: 30px;
 	opacity: 0.8;
 }
 
-.reaalizations-list .reaalizations-text a {
+.realizations-list .realizations-text a {
 	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
-.reaalizations-list .reaalizations-text a:hover,
-.reaalizations-list .reaalizations-text a:focus { color: #fff; border: 0; }
+.realizations-list .realizations-text a:hover,
+.realizations-list .realizations-text a:focus { color: #fff; border: 0; }
 
-.reaalizations-list .nav-tabs {
+.realizations-list .nav-tabs {
 	margin-top: 45px;
     border: 0;
     justify-content: center;
 }
 
-.reaalizations-list .nav-tabs li {
+.realizations-list .nav-tabs li {
 	margin-left: 10px;
     margin-right: 10px;
 }
 
-.reaalizations-list .nav-tabs li a {
+.realizations-list .nav-tabs li a {
     width: 16px;
     height: 16px;
     padding: 0;
@@ -413,16 +413,16 @@ img { max-width: 100%; }
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.reaalizations-list .nav-tabs li a:hover,
-.reaalizations-list .nav-tabs li a:focus {
+.realizations-list .nav-tabs li a:hover,
+.realizations-list .nav-tabs li a:focus {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.8);
     border: 1px solid #fff;
     border-color: rgba(255, 255, 255, 0.8);
 }
 
-.reaalizations-list .nav-tabs li a.active,
-.reaalizations-list .nav-tabs li a.active:focus {
+.realizations-list .nav-tabs li a.active,
+.realizations-list .nav-tabs li a.active:focus {
 	background: #9b59b6; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
